@@ -40,3 +40,21 @@ Y al actualizar el repositorio en github se ve como se ha actualizado este a los
 
 ![Captura del repositorio actualizado en github](./content/github_repositorio_actualizado.png)
 
+# 3. Hacer un commit y un push
+
+Para hacer un commit y un push, lo primero es realizar un cambio en el proyecto, yo por ejemplo he cambiado el archivo index.js.
+
+Seguidamente he usado los siguientes comandos:
+
+> git add .
+
+> git commit -m "Hemos realizado cambios en el console.log"
+
+> git push
+
+![Captura del push en la terminal](./content/git_push.png)
+
+Y seguidamente al actualizar el repositorio en github vemos como se han realizado dichos cambios.
+
+![Captura del cambio en github](./content/cambios_github.png)
+
