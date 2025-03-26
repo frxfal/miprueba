@@ -58,3 +58,18 @@ Y seguidamente al actualizar el repositorio en github vemos como se han realizad
 
 ![Captura del cambio en github](./content/cambios_github.png)
 
+# 4. Crear una rama
+
+Creo una nueva rama llamada development:
+
+> git branch development
+
+Me cambio a esta rama nueva:
+
+> git checkout development
+
+![Captura del cambio en github](./content/cambiando_a_development.png)
+
+En esta rama he hecho commit despues de haber creado un nuevo archivo .txt y haber realizado este apartado 4 de crear una nueva rama. Estoy de vuelta en esta rama despues de haber vuelto al main y crear un nuevo archivo .js para ver como se veran los cambios en github.
+
+![Captura de la terminal tras cambiar de ramas](./content/cambios_en_ambas_ramas.png)
