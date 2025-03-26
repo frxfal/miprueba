@@ -73,3 +73,17 @@ Me cambio a esta rama nueva:
 En esta rama he hecho commit despues de haber creado un nuevo archivo .txt y haber realizado este apartado 4 de crear una nueva rama. Estoy de vuelta en esta rama despues de haber vuelto al main y crear un nuevo archivo .js para ver como se veran los cambios en github.
 
 ![Captura de la terminal tras cambiar de ramas](./content/cambios_en_ambas_ramas.png)
+
+Tras hacer push en ambas ramas en github se ve actualizado.
+
+![Captura de github con la rama development](./content/github_nueva_rama.png)
+
+# 5. Hacer un merge
+
+He hecho un merge de development a la rama principal con el siguiente comando:
+
+> git merge development -m "Mezclando development"
+
+![Captura del merge realizado con exito](./content/merge.png)
+
+Despues de hacer el merge vemos que no hay conflictos por lo que esta todo correcto.
