@@ -15,3 +15,28 @@ Partiendo de un proyecto descargado he instalado las dependencias de este y he i
 Seguidamente para iniciar el repositorio en local he seguido los siguientes pasos en orden:
 
 > git init
+
+> git add .
+
+![Captura resultado git add .](./content/git_add_dot.png)
+
+> git commit -m "hola git"
+
+![Captura resultado git commit -m "hola git"](./content/git_commit_message.png)
+
+# 2. Subir el repositorio a GitHub
+
+Ahora he hecho log in en github y he creado un nuevo repositorio.
+
+![Captura del repositorio creado en github](./content/github_repositorio.png)
+
+Despues de haber creado la clave ssh, he subido el repositorio local al de la nube usando los 2 siguientes comandos:
+
+> git remote add origin git@github.com:frxfal/miprueba.git
+
+> git push -u origin master
+
+Y al actualizar el repositorio en github se ve como se ha actualizado este a los archivos que tenia en el proyecto local:
+
+![Captura del repositorio actualizado en github](./content/github_repositorio_actualizado.png)
+
